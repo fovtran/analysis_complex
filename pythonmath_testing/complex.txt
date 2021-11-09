@@ -1,0 +1,25 @@
+import os
+from math import *
+
+a = complex(3)
+b = e+1j
+b = 3+1j
+b.real
+c = 3-2j
+c
+c.complex
+c.imag
+c.real
+
+def Cos(a): return cos(radians(a))
+def Sin(a): return sin(radians(a))
+def Tan(a): return tan(radians(a))
+def ArcTan(a):  return degrees(arctan(a))
+def ArcSin(a):  return degrees(arcsin(a))
+def ArcCos(a):  return degrees(arccos(a))
+def ToRad(a): return a*pi/180  # convert to rad
+
+import asyncio
+async def T(a): yield a+1
+T(a)
+<generator object T at 0x0000007A0F424A40>
